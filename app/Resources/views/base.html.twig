@@ -2,12 +2,341 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="pingback" href="http://unfamo.us/petsandvets/xmlrpc.php" />
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <script type='text/javascript' src="{{ asset('wp-includes/js/jquery/jquery.js%3Fver=1.12.4') }}"></script>
+        <script type='text/javascript' src="{{ asset('wp-includes/js/jquery/jquery-migrate.min.js%3Fver=1.4.1') }}"></script>
+        <script type='text/javascript' src="{{ asset('wp-content/themes/petsandvets/js/jquery.prettyPhoto.js?ver=1.0') }}"></script>
+
+        <title>{% block title %}animals care <3{% endblock %}</title>
+        {% block stylesheets %}
+            <style type="text/css">
+                img.wp-smiley,
+                img.emoji {
+                    display: inline !important;
+                    border: none !important;
+                    box-shadow: none !important;
+                    height: 1em !important;
+                    width: 1em !important;
+                    margin: 0 .07em !important;
+                    vertical-align: -0.1em !important;
+                    background: none !important;
+                    padding: 0 !important;
+                }
+
+
+            </style>
+
+            <style type="text/css">
+                a.logo { background: url('wp-content/themes/petsandvets/img/logo.svg') no-repeat left center;}
+                #header a.logo {width:250px;}
+                #header a.logo h1 {line-height:140px;}
+                body a {color:#779BB8}
+                body a:hover {color:#306591}
+                body {background-image: url('wp-content/themes/petsandvets/img/footer-withcity.svg'), url('wp-content/themes/petsandvets/img/bgtop.jpg');}
+                .shophome .page-title {display: none;}
+
+                .doghouse { background: url('wp-content/themes/petsandvets/img/doghouse.svg') no-repeat left top;}
+
+                .contactbone { background: url('wp-content/themes/petsandvets/img/contactbone.svg') no-repeat left top;}
+
+                .catbird { background: url('wp-content/themes/petsandvets/img/catbird.svg') no-repeat left top;}
+
+                .category-34  .doghouse, .page-id-466 .doghouse {background: url('wp-content/uploads/sites/5/2014/07/cat-forhead.svg') no-repeat left top;}
+
+                .category-34 .contactbone, .page-id-466 .contactbone {
+                    background: url('wp-content/uploads/sites/5/2014/07/fish-forbone.svg') no-repeat left top;
+                }
+
+                .category-69 .catbird, .page-id-466 .catbird {
+                    background: url('wp-content/uploads/sites/5/2014/07/dog-forfoot.svg') no-repeat left top;
+                }
+
+                html { -webkit-font-smoothing: antialiased; }</style>
+            <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+            <style id='woocommerce-inline-inline-css' type='text/css'>
+                .woocommerce form .form-row .required { visibility: visible; }
+            </style>
+            <link rel='stylesheet' id='bootstrap-css' href="{{ asset('wp-content/themes/petsandvets/css/bootstrap.min.css%3Fver=4.9.6.css') }}" type='text/css' media='all' />
+            <link rel='stylesheet' id='prettyPhoto-css'  href="{{ asset('wp-content/themes/petsandvets/css/prettyPhoto.css%3Fver=4.9.6.css') }}" type='text/css' media='all' />
+            <link rel='stylesheet' id='pvsocial-css'  href="{{ asset('wp-content/themes/petsandvets/css/pvsocial.css%3Fver=4.9.6.css') }}" type='text/css' media='all' />
+            <link rel='stylesheet' id='oswald-css'  href="{{ asset('https://fonts.googleapis.com/css?family=Oswald%3A400%2C300%2C700&#038;ver=4.9.6') }}" type='text/css' media='all' />
+            <link rel='stylesheet' id='wp-style-css'  href="{{ asset('wp-content/themes/petsandvets/style.css%3Fver=4.9.6.css') }}" type='text/css' media='all' />
+
+            <link rel='stylesheet' id='woocommerce-layout-css'  href="{{ asset('wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css%3Fver=3.4.3.css') }}" type='text/css' media='all' />
+            <link rel='stylesheet' id='woocommerce-smallscreen-css'  href="{{ asset('wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css%3Fver=3.4.3.css') }}" type='text/css' media='only screen and (max-width: 768px)' />
+            <link rel='stylesheet' id='woocommerce-general-css'  href="{{ asset('wp-content/plugins/woocommerce/assets/css/woocommerce.css%3Fver=3.4.3.css') }}" type='text/css' media='all' />
+            <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+            <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+        {% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block body %}
+        <body class="home page-template page-template-page-statichomepage page-template-page-statichomepage-php page page-id-5 woocommerce-no-js">
+        <div id="top-bar" class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="navbar-toggle navbar-btn collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-collapse collapse">
+                        <ul id="menu-top-menu" class="nav navbar-nav"><li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-25 active"><a title="Home" href="index.html">Home</a></li>
+                            <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-31 dropdown"><a title="Shop" href="index.html#" data-toggle="dropdown" class="dropdown-toggle">Shop <span class="caret"></span></a>
+                                <ul role="menu" class=" dropdown-menu">
+                                    <li id="menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404"><a title="Shop Home" href="shop/page/1/index.html">Shop Home</a></li>
+                                    <li id="menu-item-401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401"><a title="Cart" href="index.html%3Fp=27.html">Cart</a></li>
+                                    <li id="menu-item-405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405"><a title="Checkout" href="checkout/index.html">Checkout</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a title="Blog" href="blog/index.html">Blog</a></li>
+                            <li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a title="Cart" href="index.html%3Fp=27.html">Cart</a></li>
+                            <li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a title="My Account" href="index.html%3Fp=29.html">My Account</a></li>
+                            <li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402"><a title="Shop" href="shop/page/1/index.html">Shop</a></li>
+                            <li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403"><a title="Cart" href="index.html%3Fp=27.html">Cart</a></li>
+                        </ul><ul id="menu-main-menu" class="nav navbar-nav visible-xs mt10"><li id="menu-item-363" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-363"><a title="Dogs" href="category/dog/index.html">Dogs</a></li>
+                            <li id="menu-item-237" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-237"><a title="Cats" href="category/cats/index.html">Cats</a></li>
+                            <li id="menu-item-295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-295"><a title="About Us" href="index.html%3Fp=205.html">About Us</a></li>
+                            <li id="menu-item-325" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-325 dropdown"><a title="Features" href="index.html#" data-toggle="dropdown" class="dropdown-toggle">Features <span class="caret"></span></a>
+                                <ul role="menu" class=" dropdown-menu">
+                                    <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a title="Shortcodes" href="index.html%3Fp=19.html">Shortcodes</a></li>
+                                    <li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a title="SiteMap" href="index.html%3Fp=15.html">SiteMap</a></li>
+                                    <li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a title="Members Only" href="index.html%3Fp=118.html">Members Only</a></li>
+                                    <li id="menu-item-409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-409"><a title="Full Page Template" href="index.html%3Fp=365.html">Full Page Template</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9"><a title="Blog" href="blog/index.html">Blog</a></li>
+                            <li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a title="Contact" href="index.html%3Fp=121.html">Contact</a></li>
+                        </ul>		            	<div id="sociallinks" class="hidden-xs">
+                            <a href="http://twitter.com/gcwebdesigner" class="pvsocialicons" data-tip="top" data-original-title="Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
+                            <a href="https://www.facebook.com/getunfamous" class="pvsocialicons" data-tip="top" data-original-title="Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
+                            <a href="http://www.youtube.com/user/Envato" class="pvsocialicons" data-tip="top" data-original-title="YouTube" target="_blank"><i class="icon icon-youtube-2"></i></a>
+                            <a href="https://plus.google.com/+envato" class="pvsocialicons" data-tip="top" data-original-title="Google Plus" target="_blank"><i class="icon icon-gplus"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+                            <a href="http://instagram.com/mikeyh" class="pvsocialicons" data-tip="top" data-original-title="Instagram" target="_blank"><i class="icon icon-instagram"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                        <script type="text/javascript">
+                            // Turn On Tool Tips
+                            jQuery(function(){
+                                jQuery("[rel=tooltip]").tooltip();
+                            });
+                        </script>      </div><!--/.navbar-collapse -->
+                </div><!--/.container -->
+            </div>
+        </div><form action="wp-login.php.html" method="post">
+            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Login</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <input type="text" name="log" id="log" value="" placeholder="Username" class="form-control"/><br/>
+                            <input type="password" name="pwd" id="pwd" placeholder="Password" class="form-control"/><br/>
+                            <button type="submit" name="submit" class="btn btn-default mb10">Login</button>
+                            <label class="checkbox">
+                                <input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /> <small>Remember me</small>
+                            </label>
+                            <a href="wp-login.php%3Faction=lostpassword.html"><small>Recover password</small></a>
+                            <input type="hidden" name="redirect_to" value="/petsandvets/" />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="headbg">
+            <div id="header" class="container">
+                <a href="http://unfamo.us/petsandvets" class="logo"><h1>Pets &amp; Vets &#8211; WordPress Theme	  </h1></a>
+                <div class="doghouse"></div>
+                <div class="contactbone animated bounceInDown">
+                    <span class="text">Need Help? Call Now</span><br>
+                    <span class="number">1800 Pet Vet</span>
+                </div>
+            </div> <!-- /container -->
+            <div class="container hidden-xs">
+                <div id="main-nav" class="navbar">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <a href="http://unfamo.us/petsandvets" class="homebutton">Home</a>
+                            <ul id="menu-main-menu-1" class="nav navbar-nav"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-363"><a title="Dogs" href="category/dog/index.html">Dogs</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-237"><a title="Cats" href="category/cats/index.html">Cats</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-295"><a title="About Us" href="index.html%3Fp=205.html">About Us</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-325 dropdown"><a title="Features" href="index.html#" data-toggle="dropdown" class="dropdown-toggle">Features <span class="caret"></span></a>
+                                    <ul role="menu" class=" dropdown-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a title="Shortcodes" href="index.html%3Fp=19.html">Shortcodes</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a title="SiteMap" href="index.html%3Fp=15.html">SiteMap</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a title="Members Only" href="index.html%3Fp=118.html">Members Only</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-409"><a title="Full Page Template" href="index.html%3Fp=365.html">Full Page Template</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9"><a title="Blog" href="blog/index.html">Blog</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a title="Contact" href="index.html%3Fp=121.html">Contact</a></li>
+                            </ul>									<div id="search-mainnav" class="pull-right hidden-sm">
+                                <form role="search" method="get" id="searchform" action="index.html">
+                                    <a href="index.html#" class="searchbutton" onclick="document.getElementById('searchform').submit();">Search</a>
+                                    <input type="text" class="search-textfield input-medium" name="s" id="s" placeholder="Search"/>
+                                    <input type="hidden" id="searchsubmit" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% block content %}
+    {% endblock content %}
+        <div id="footer" class="container mb20">
+            <div class="row">
+                <div class="footerbanner"><a href="contact.1.html">Book an Appointment Today!</a></div>
+                <div class="catbird"></div>
+                <div id="leftfoot" class="col-md-6 muted">
+                    <small>Pets & Vets © 2014</small>
+                    <small>
+                        -
+                        <a id="loginButtonTopBar" class="accountbutton" data-toggle="modal" data-target="#loginModal"> Login</a>
+                    </small>
+                </div><!-- end rightfood -->
+
+                <div id="rightfoot" class="col-md-6 muted">
+                    <a href="index.html#" class="topbutton ">Top</a>
+                    <div class="pull-right">
+                        <div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-14"><a href="index.html">Home</a></li>
+                                <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"><a href="blog/index.html">Blog</a></li>
+                                <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="index.html%3Fp=15.html">SiteMap</a></li>
+                            </ul></div>		    	</div>
+                </div> <!-- end rightfood -->
+
+            </div>
+        </div>
+
+        {% endblock %}
+        {% block javascripts %}
+        <script type="text/javascript">
+            var c = document.body.className;
+            c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+            document.body.className = c;
+        </script>
+        <script type='text/javascript'>
+            /* <![CDATA[ */
+            var wc_add_to_cart_params = {"ajax_url":"\/petsandvets\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/petsandvets\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/unfamo.us\/petsandvets\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+            /* ]]> */
+        </script>
+        <script type='text/javascript' src="{{ asset('wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js%3Fver=3.4.3') }}"></script>
+        <script type='text/javascript' src="{{ asset('wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js%3Fver=2.70') }}"></script>
+        <script type='text/javascript' src="{{ asset('wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js%3Fver=2.1.4') }}"></script>
+        <script type='text/javascript'>
+            /* <![CDATA[ */
+            var woocommerce_params = {"ajax_url":"\/petsandvets\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/petsandvets\/?wc-ajax=%%endpoint%%"};
+            /* ]]> */
+        </script>
+        <script type='text/javascript' src="{{ asset('wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js%3Fver=3.4.3') }}"></script>
+        <script type='text/javascript'>
+            /* <![CDATA[ */
+            var wc_cart_fragments_params = {"ajax_url":"\/petsandvets\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/petsandvets\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_816f148838535a242f53ebba200add80","fragment_name":"wc_fragments_816f148838535a242f53ebba200add80"};
+            /* ]]> */
+        </script>
+        <script type='text/javascript' src="{{ asset('wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js%3Fver=3.4.3') }}"></script>
+        <script type='text/javascript' src="{{ asset('wp-content/themes/petsandvets/js/bootstrap.min.js%3Fver=1.0') }}"></script>
+        <script type='text/javascript' src="{{ asset('wp-content/themes/petsandvets/js/jquery.placeholder.min.js%3Fver=1.0') }}"></script>
+        <script type='text/javascript' src="{{ asset('p-content/themes/petsandvets/js/jquery.prettyPhoto.js%3Fver=1.0') }}"></script>
+        <script type='text/javascript' src="{{ asset('wp-content/themes/petsandvets/js/scripts.js%3Fver=1.0') }}"></script>
+        <script type='text/javascript' src="{{ asset('wp-includes/js/wp-embed.min.js%3Fver=4.9.6') }}"></script>
+            <script type="text/javascript">
+                window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/unfamo.us\/petsandvets\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.6"}};
+                !function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+        </script>
+            <script type='text/javascript' src="{{ asset('wp-content/plugins/wp-days-ago/wp_days_ago.js%3Fver=3.2') }}"></script>
+            <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?sensor=false&#038;ver=4.9.6'></script>
+            <script type='text/javascript' src="{{ asset('wp-content/themes/petsandvets/js/initmap.min.js%3Fver=4.9.6') }}"></script>
+
+        <script type='text/javascript'>
+            /* <![CDATA[ */
+            var wp_days_ago_script = {"ajaxurl":"http:\/\/unfamo.us\/petsandvets\/wp-admin\/admin-ajax.php"};
+            /* ]]> */
+        </script>
+            <link rel='https://api.w.org/' href='wp-json/index.html' />
+            <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
+            <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+            <link rel="canonical" href="index.html" />
+            <link rel='shortlink' href='index.html' />
+            <link rel="alternate" type="application/json+oembed" href="{{ asset('wp-json/oembed/1.0/embed%3Furl=http%253A%252F%252Funfamo.us%252Fpetsandvets%252F') }}" />
+            <link rel="alternate" type="text/xml+oembed" href="{{ asset('wp-json/oembed/1.0/embed%3Furl=http%253A%252F%252Funfamo.us%252Fpetsandvets%252F&amp;format=xml') }}" />
+            <script type="text/javascript">
+                (function(url){
+                    if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+                    var addEvent = function(evt, handler) {
+                        if (window.addEventListener) {
+                            document.addEventListener(evt, handler, false);
+                        } else if (window.attachEvent) {
+                            document.attachEvent('on' + evt, handler);
+                        }
+                    };
+                    var removeEvent = function(evt, handler) {
+                        if (window.removeEventListener) {
+                            document.removeEventListener(evt, handler, false);
+                        } else if (window.detachEvent) {
+                            document.detachEvent('on' + evt, handler);
+                        }
+                    };
+                    var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+                    var logHuman = function() {
+                        if (window.wfLogHumanRan) { return; }
+                        window.wfLogHumanRan = true;
+                        var wfscr = document.createElement('script');
+                        wfscr.type = 'text/javascript';
+                        wfscr.async = true;
+                        wfscr.src = url + '&r=' + Math.random();
+                        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+                        for (var i = 0; i < evts.length; i++) {
+                            removeEvent(evts[i], logHuman);
+                        }
+                    };
+                    for (var i = 0; i < evts.length; i++) {
+                        addEvent(evts[i], logHuman);
+                    }
+                })('//unfamo.us/petsandvets/?wordfence_lh=1&hid=329BC9F42AA78C0EFF979B17330F3C68');
+            </script>
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-399862-19', 'unfamo.us');
+                ga('require', 'displayfeatures');
+                ga('send', 'pageview');
+
+            </script>
+            <link rel="shortcut icon" type="image/x-icon" href="wp-content/themes/petsandvets/favicon.png">
+        {% endblock %}
     </body>
 </html>

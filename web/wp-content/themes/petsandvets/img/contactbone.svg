@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="275px" height="95px" viewBox="0 0 275 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>contactbone</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="0%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#E5DFC1" offset="1%"></stop>
+            <stop stop-color="#F5F2DD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="0%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#D0CAAC" offset="1%"></stop>
+            <stop stop-color="#F5F2DD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="0%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#C5BE9F" offset="1%"></stop>
+            <stop stop-color="#D5D0B2" offset="34%"></stop>
+            <stop stop-color="#E4E1C4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="37.2463182%" y1="0%" x2="55.2828301%" y2="70.711%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F2EED7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="33.3177636%" x2="70.711%" y2="56.910116%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EBE6CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.7463373%" y1="0%" x2="49.5897947%" y2="98.163%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F3F0DE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.4324332%" y1="0%" x2="49.0821715%" y2="98.163%" id="linearGradient-7">
+            <stop stop-color="#D9D5B9" offset="0%"></stop>
+            <stop stop-color="#C8C1A3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.6312327%" y1="0%" x2="49.4036558%" y2="98.163%" id="linearGradient-8">
+            <stop stop-color="#D9D5B9" offset="0%"></stop>
+            <stop stop-color="#C8C1A3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.8792227%" y1="0%" x2="49.8046875%" y2="98.163%" id="linearGradient-9">
+            <stop stop-color="#D9D5B9" offset="0%"></stop>
+            <stop stop-color="#C8C1A3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="39.3583673%" y1="0%" x2="32.7911111%" y2="98.163%" id="linearGradient-10">
+            <stop stop-color="#D9D5B9" offset="0%"></stop>
+            <stop stop-color="#C8C1A3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.8238788%" y1="0%" x2="49.7151893%" y2="98.163%" id="linearGradient-11">
+            <stop stop-color="#D9D5B9" offset="0%"></stop>
+            <stop stop-color="#C8C1A3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="contactbone" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
+            <path d="M54.5,3.34 C54.5,3.34 103.223,-0.982 148.06,-0.031 C172.001,0.477 196.369,2.264 207.543,3.095 C212.672,3.477 215.653,4.728 215.653,4.728 L212.56,31.397 C212.56,31.397 175.413,28.481 139.297,27.986 C98.848,27.432 55.938,29.293 55.938,29.293 C55.938,29.293 54.503,21.449 54.112,14.385 C53.792,8.601 54.5,3.34 54.5,3.34 L54.5,3.34 Z" id="Shape" fill="#133544" sketch:type="MSShapeGroup"></path>
+            <path d="M46.5,32.34 C46.5,32.34 198.614,29.275 217.69,33.637 C217.69,33.637 244.605,5.348 259.246,24.137 C273.887,42.926 267.514,55.484 260.914,57.538 C260.914,57.538 280.175,70.494 269.058,83.155 C257.941,95.816 238.156,95.215 228.04,73.537 C228.04,73.537 181.011,69.803 133.958,69.846 C98.567,69.879 62.374,73.724 50.556,73.57 C50.556,73.57 45.316,94.702 23.455,93.266 C1.594,91.83 -3.786,62.331 16.921,54.239 C16.921,54.239 -11.571,46.342 4.776,25.889 C23.069,3 44.463,24.205 46.5,32.34 L46.5,32.34 Z" id="Shape" opacity="0.122" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <path d="M47.5,28.34 C47.5,28.34 199.614,25.275 218.69,29.638 C218.69,29.638 245.605,1.348 260.247,20.137 C274.887,38.926 268.514,51.483 261.914,53.538 C261.914,53.538 281.175,66.494 270.058,79.155 C258.941,91.816 239.156,91.215 229.04,69.537 C229.04,69.537 182.011,65.804 134.958,65.846 C99.567,65.879 63.374,69.724 51.556,69.57 C51.556,69.57 46.316,90.702 24.455,89.266 C2.594,87.83 -2.786,58.331 17.921,50.239 C17.921,50.239 -10.571,42.342 5.776,21.888 C24.069,-1 45.462,20.205 47.5,28.34 L47.5,28.34 Z" id="Shape" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup"></path>
+            <path d="M10.5,17.34 C10.5,17.34 0.628,36.844 16.565,48.676 C16.868,48.9 17.179,49.122 17.5,49.34 C17.5,49.34 -16,40.84 10.5,17.34 L10.5,17.34 Z" id="Shape" fill="url(#linearGradient-2)" sketch:type="MSShapeGroup"></path>
+            <path d="M8.5,57.34 C4.184,63.101 3.064,72.403 12.5,78.34 C37.783,94.249 49.5,67.34 49.5,67.34 C49.5,67.34 161.5,59.59 230.5,67.34 C230.5,67.34 246.392,93.767 261.5,82.34 C285.091,64.497 261.5,54.34 261.5,54.34 C261.5,54.34 275.872,58.265 273.5,74.34 C271.481,88.023 245.018,100.621 229.5,71.34 C229.5,71.34 146.25,62.09 51.5,70.34 C51.5,70.34 43,97.09 17.5,88.34 C-1.7111683,81.7479324 1.92276412,62.9528918 9.48036255,54.9385418 C11.2263322,53.0870521 14.8158832,51.1344782 17.0172389,50.487372 C17.6651984,50.2968991 18.1928854,50.2195311 18.5178837,50.2911377 C19.9470209,50.6060181 19.4720532,51.3954966 19.1187138,51.6903687 C18.8780863,51.8911794 17.4070468,51.3227064 17.5,51.34 C17.5,51.34 11.684,53.09 8.5,57.34 Z" id="Shape" fill="url(#linearGradient-3)" sketch:type="MSShapeGroup"></path>
+            <path d="M8.24236685,22.523202 C10.6924621,18.5059466 21.9874225,2.98169517 41.5,20.443 C41.5,20.443 19.058,6.697 11.5,26.34 C11.5,26.34 8.23632007,31.6113681 7.52999397,28.6352128 C7.31931382,27.747497 7.24768067,27.100952 7.52999398,24.7370604 C7.52999398,24.7370604 7.90466974,23.0769012 8.24236685,22.523202 Z" id="Shape" fill="url(#linearGradient-4)" sketch:type="MSShapeGroup"></path>
+            <path d="M10.1119994,54.4403687 C9.32868904,55.2567896 8.23647333,56.5949707 7.50842691,57.8216628 C5.60756026,61.0244508 4.29725687,65.4306912 5.97244179,70.7600986 C6.33428725,71.911268 6.95322558,72.6798773 7.61779776,73.9143672 C7.61779776,73.9143672 7.23251424,72.8579778 7.27604972,70.6526142 C7.35824544,66.4888544 8.54910754,59.7466709 14.742,55.532 C18.9957696,52.6374788 19.6346205,51.4618575 19.0473268,51.0450676 C18.7479182,50.8325837 18.2937172,50.5801939 17.6734623,50.6349487 C16.8009439,50.7119729 15.7602543,51.1646728 15.7602543,51.1646728 C15.7602543,51.1646728 11.7835356,52.6981766 10.1119994,54.4403687 Z" id="Shape" fill="url(#linearGradient-5)" sketch:type="MSShapeGroup"></path>
+            <path d="M224.5,25.34 L219.5,30.34 C219.5,30.34 207.377,29.54 192.5,29.34 C151.242,28.786 72.625,29.399 48.5,29.34 C48.5,29.34 140.497,29.862 192.5,31.34 C205.909,31.721 215.238,33.187 221.5,33.34 C221.5,33.34 223.818095,29.985077 227.833521,26.2378279 C234.241093,20.2581975 244.970715,13.279555 257.5,17.34 C257.5,17.34 243.415,6.934 224.5,25.34 Z" id="Shape" fill="url(#linearGradient-6)" sketch:type="MSShapeGroup"></path>
+            <path d="M30.5,61.34 C30.5,61.34 45,56.59 55.5,58.34 C55.5,58.34 37.75,60.59 30.5,61.34 L30.5,61.34 Z" id="Shape" opacity="0.8" fill="url(#linearGradient-7)" sketch:type="MSShapeGroup"></path>
+            <path d="M222.557,59.027 C222.557,59.027 231.948,58.931 238.47,60.764 C238.47,60.764 227.933,60.51 222.557,59.027 L222.557,59.027 Z" id="Shape" fill="url(#linearGradient-8)" sketch:type="MSShapeGroup"></path>
+            <path d="M221.5,48.34 C221.5,48.34 240.5,49.34 241.5,47.34 C241.5,47.34 232,47.34 221.5,48.34 L221.5,48.34 Z" id="Shape" fill="url(#linearGradient-9)" sketch:type="MSShapeGroup"></path>
+            <path d="M233.5,33.34 C233.5,33.34 227.25,40.09 221.5,40.34 C221.5,40.34 228.5,41.34 233.5,33.34 L233.5,33.34 Z" id="Shape" fill="url(#linearGradient-10)" sketch:type="MSShapeGroup"></path>
+            <path d="M37.5,33.34 C37.5,33.34 43.75,40.09 49.5,40.34 C49.5,40.34 42.5,41.34 37.5,33.34 L37.5,33.34 Z" id="Shape" fill="url(#linearGradient-10)" sketch:type="MSShapeGroup"></path>
+            <path d="M27.213,49.474 C27.213,49.474 29.799,49.468 36.358,50.224 C39.947,50.637 45.685,50.474 48.787,50.206 C48.787,50.206 46.362,49.824 40.963,49.081 C35.875,48.38 27.213,49.474 27.213,49.474 L27.213,49.474 Z" id="Shape" opacity="0.639" fill="url(#linearGradient-11)" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

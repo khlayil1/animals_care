@@ -1,0 +1,25 @@
+//Alternative method - Tooltips without using rel="tooltip"
+jQuery('[data-tip]').each( function() {jQuery(this).tooltip({ placement: jQuery(this).data('tip') }); });
+
+
+// Login Modal window, auto select first field  
+jQuery('#loginModal').on('shown', function () {
+  jQuery('#log').focus();
+});
+
+//prettyPhoto
+jQuery(document).ready(function(){
+	jQuery("a[rel^='prettyPhoto']").prettyPhoto({
+		theme: 'pp_default',
+		social_tools: false,
+		show_title: false
+	});
+});
+
+// Field Placeholder Text
+jQuery('input, textarea').placeholder();
+
+// Homepage Slider
+jQuery('.carousel').carousel({
+	interval: 4000
+})
