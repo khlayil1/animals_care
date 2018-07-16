@@ -1,8 +1,139 @@
 {% trans_default_domain 'FOSUserBundle' %}
 
-{{ form_start(form, { 'action': path('fos_user_resetting_reset', {'token': token}), 'attr': { 'class': 'fos_user_resetting_reset' } }) }}
-    {{ form_widget(form) }}
-    <div>
-        <input type="submit" value="{{ 'resetting.reset.submit'|trans }}" />
+
+
+<div class="stump">
+    <div class="container topborder"></div>
+    <div class="container contentarea">
+        <div class="row animated fadeInUp">
+            <div id="content" class="col-md-8 col-sm-8">
+                <div class="paddy">
+                    <h1 class="entry-title">My Account</h1>
+                    <div class="woocommerce">
+                        <style>
+                            .woocommerce form .form-row .required {visibility: visible;}
+
+                        </style>
+
+
+                        <h2>Register</h2>
+
+                        <form class="woocommerce-form woocommerce-form-login login"  action="{{ path('fos_user_resetting_reset', {'token': token}) }}" method="post">
+
+
+                            <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                {{ form_row(form._token) }}
+
+                                <label for="new password">New password &nbsp;<span class="required">*</span></label>
+                                {{ form_widget(form.plainPassword.first, { 'attr': {'class': 'woocommerce-Input woocommerce-Input--text input-text', 'placeholder': 'new password' } }) }}
+                                {{ form_errors(form.plainPassword.first) }}
+
+                                <label for="username">Username &nbsp;<span class="required">*</span></label>
+                                {{ form_widget(form.plainPassword.second, { 'attr': {'class': 'woocommerce-Input woocommerce-Input--text input-text', 'placeholder': 'new password comfirm' } }) }}
+                                {{ form_errors(form.plainPassword.second) }}
+
+
+
+                            </p>
+                            <p class="form-row">
+                                <button type="submit" class="woocommerce-Button button" name="comfirm" value="comfirm">comfirm</button>
+                            </p>
+
+
+
+                        </form>
+
+
+                    </div>
+                    <div class="clearfix"></div>
+                    <a name="comments"></a>
+                    <div id="post-comments">
+                        <h3 class="comments-title"></h3>
+
+                        <ol class="commentlist"></ol>
+
+
+                    </div>	</div>
+
+            </div>
+            <div id="sidebar" class="col-md-4 col-sm-4">
+                <div id="opentimes_widget-3" class="widget_opentimes_widget widget pagesidebar mb20"><div class="widget-pad"><div class="opentimesbox well">
+                            <h5><i class="glyphicon glyphicon-time"></i> Open Times</h5>
+                            <table class="table">
+                                <tbody>
+                                <tr>
+                                    <td><strong>Weekdays</strong></td>
+                                    <td>9:00am-5:00pm</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Saturday</strong></td>
+                                    <td>9:00am-5:00pm</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Sunday</strong></td>
+                                    <td>9:00am-5:00pm</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Public Holidays</strong></td>
+                                    <td>9:00am-5:00pm</td>
+                                </tr>
+                                </tbody>
+                            </table></div>
+                    </div></div><div id="unf_recent_posts-3" class="Unf_Recent_Posts widget pagesidebar mb20"><div class="widget-pad">
+                        <!--- Most Recent --->
+
+
+                        <div class="grid-block post light grid mb20 norm">
+                            <div class="grid-block-content">
+
+                                <div style="background:url('wp-content/uploads/sites/5/2014/02/dog7-224x100.jpg') center center no-repeat #000;" class="gridpostimage">
+                                    <a href="index.html%3Fp=153.html">Read More</a>
+                                </div>
+                                <div class="grid-text-cover">
+                                    <p class="gridcatname"><a href="category/dog/index.html">Dogs</a></p>
+                                    <strong class="grid-title"><a href="index.html%3Fp=153.html" class="">House Training</a></strong>
+                                    <p class="gridexcerpt">Photo by&nbsp;blumenbiene Puppies need to be house trained in order to understand that it’s not okay t...</p>
+                                    <p class="listexcerpt">Photo by&nbsp;blumenbiene Puppies need to be house trained in order to understand that it’s not okay to eliminate in your house. House training is a simple process, but one that must be carried out positively (without punishment that scares the...</p>
+                                    <div class="visible-lg visible-md">									<span class="postmetagrid-daysago">
+										<i class="glyphicon glyphicon-time icon-black"></i>
+						                4 years, 142 days ago									</span>
+                                        <span class="postmetagrid-comment">
+								            <i class="glyphicon glyphicon-comment icon-black"></i>
+					    					<a href="index.html%3Fp=153.html#comments">1</a>				    					</span>
+                                    </div>							</div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="grid-block post light grid mb20 norm">
+                            <div class="grid-block-content">
+
+                                <div style="background:url('wp-content/uploads/sites/5/2014/02/IMG_9117-224x100.jpg') center center no-repeat #000;" class="gridpostimage">
+                                    <a href="index.html%3Fp=276.html">Read More</a>
+                                </div>
+                                <div class="grid-text-cover">
+                                    <p class="gridcatname"><a href="category/stores/index.html">Stores</a></p>
+                                    <strong class="grid-title"><a href="index.html%3Fp=276.html" class="">New Store Opening!</a></strong>
+                                    <p class="gridexcerpt">Store Grand Openings. We’re always opening up new stores to provide pets and Pet Parents with ...</p>
+                                    <p class="listexcerpt">Store Grand Openings. We’re always opening up new stores to provide pets and Pet Parents with a place to go for a variety of competitively priced, quality pet products. Store Grand Openings. We’re always opening up new stores to provide...</p>
+                                    <div class="visible-lg visible-md">									<span class="postmetagrid-daysago">
+										<i class="glyphicon glyphicon-time icon-black"></i>
+						                4 years, 140 days ago									</span>
+                                        <span class="postmetagrid-comment">
+								            <i class="glyphicon glyphicon-comment icon-black"></i>
+					    					<a href="index.html%3Fp=276.html#respond">0</a>				    					</span>
+                                    </div>							</div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div></div>			</div><!-- end sidebar -->		</div>
     </div>
-{{ form_end(form) }}
+
+    <div class="container bottomborder"></div>
+</div>
+
